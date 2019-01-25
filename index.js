@@ -32,14 +32,14 @@ async function main() {
     await page.hover(usernameSelector);
     await page.click(usernameSelector);
     await page.type(usernameSelector, USERNAME, {
-        delay: 100
+        delay: 30
     });
 
 
     await page.hover(passwordSelector);
     await page.click(passwordSelector);
     await page.type(passwordSelector, PASSWORD, {
-        delay: 100
+        delay: 30
     })
 
     await Promise.all([
