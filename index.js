@@ -1,7 +1,9 @@
 const puppeteer = require('puppeteer');
 
-const USERNAME = "tienminh.uet@gmail.com";
-const PASSWORD = "nguyentienlaM242";
+
+//Mật khẩu đăng nhập lazada seller center
+const USERNAME = "test";
+const PASSWORD = "test";
 
 
 //Selectors
